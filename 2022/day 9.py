@@ -52,8 +52,6 @@ for direction,_,*steps in head_moves:
         
         for i in range(9):
             H, T = R[i], R[i+1]
-            if H == [4,4]:
-                pass
 
             x_diff, y_diff = [abs(a-b) for a,b in zip(T,H)]
             (hx, hy), (tx, ty) = H, T
